@@ -3,6 +3,9 @@ uuid = "eb6a66cd-f301-41d1-8d08-a7e9d1ec353e"
 authors = ["marleenlki <marleen.lukei@bertelsmann.de> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
 [compat]
 julia = "1.6.7"
 

@@ -1,5 +1,7 @@
 module JuliaProject
+using LinearAlgebra: det
 
-# Write your package code here.
+include("twotimes.jl")
+export twotimes
 
 end

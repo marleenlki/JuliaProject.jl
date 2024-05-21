@@ -2,5 +2,6 @@ using JuliaProject
 using Test
 
 @testset "JuliaProject.jl" begin
-    # Write your tests here.
+    @test twotimes(2) == 4
+    @test twotimes(3) == 6
 end
