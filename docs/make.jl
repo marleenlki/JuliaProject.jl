@@ -1,9 +1,9 @@
 # Inside make.jl
 push!(LOAD_PATH,"../src/")
-using JuliaProject
 using Documenter
+using JuliaProject
 makedocs(
-         sitename = "Documentation.jl",
+         sitename = "JuliaProject.jl",
          modules  = [JuliaProject],
          pages=[
                 "Home" => "index.md"
